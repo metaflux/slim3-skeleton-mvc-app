@@ -17,7 +17,9 @@
     "prefer-stable": true,
     "require": {
         "php": ">=5.5.0",
-        "rotexsoft/slim3-skeleton-mvc-tools": "dev-master"
+        "rotexsoft/slim3-skeleton-mvc-tools": "dev-master",
+        "slim/flash": "^0.2.0",
+        "rotexsoft/leanorm": "dev-master"
     },
     "require-dev": {
         "php": ">=5.5.0",

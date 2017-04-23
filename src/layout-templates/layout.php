@@ -3,8 +3,10 @@
     <head>
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Site Title Goes Here</title>
+        <title>Blog</title>
+        <link rel="stylesheet" href="<?php echo s3MVC_MakeLink('/css/bootstrap.min.css'); ?>" />
         <link rel="stylesheet" href="<?php echo s3MVC_MakeLink('/css/app.css'); ?>" />
+        <script src="<?php echo s3MVC_MakeLink('/js/jquery-3.2.1.min.js'); ?>"></script>
     </head>
     <body>
         <div>
@@ -31,7 +33,7 @@
         <footer>
             <div>
                 <hr/>
-                <p>© Copyright no one at all. Go to town.</p>
+                <p>© <?php echo date('Y') ?></p>
             </div> 
         </footer>
 

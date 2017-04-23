@@ -44,6 +44,7 @@
 
         <script src="<?php echo s3MVC_MakeLink('/js/foundation/vendor/what-input.js'); ?>"></script>
         <script src="<?php echo s3MVC_MakeLink('/js/foundation/vendor/foundation.min.js'); ?>"></script>
+        <script src="<?php echo s3MVC_MakeLink('/js/app.js'); ?>"></script>
         <script> $(document).foundation(); </script>
     </body>
 </html>
